@@ -1,6 +1,6 @@
 module.exports = {
   entry: {
-    react: './js/react.js', //These react on left and right should be the same
+    react: './js/global.js', //These react on left and right should be the same
   },
   output: {
     path: './js/',

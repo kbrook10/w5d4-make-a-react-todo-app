@@ -2,7 +2,7 @@
   "name": "reactapp",
   "version": "1.0.0",
   "description": "React App",
-  "main": "/js/global.js",
+  "main": "./js/global.js",
   "scripts": {
     "start": "webpack-dev-server"
   },

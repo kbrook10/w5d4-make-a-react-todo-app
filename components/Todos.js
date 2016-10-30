@@ -2,12 +2,13 @@ import React, { Component } from 'react'
 import TodoItem from './TodoItem'
 
 const Todos = (props) => {
-    const VarItems = props.data.map((input, i) =>{
-        return <TodoItem data={input} key={i} />
+    const TaskItems = props.data.map((task, i) =>{
+        return <TodoItem data={task} key={i} />
     })
+    console.log(TaskItems)
     return (
         <div>
-            {VarItems}
+            {TaskItems}
         </div>
     )
 }

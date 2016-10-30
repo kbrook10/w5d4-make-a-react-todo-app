@@ -12,7 +12,7 @@ const Posts = (props) => { //This 'const' makes a new view of the post...This ne
             {/* This div allows use to contain everything inside one thing */}
             {/*Can only return (1) thing */}
             {/* <h1>Blog Posts</h1> */}
-            <h1>Blog Posts</h1>
+            <h1>Blogging</h1>
             {PostItems}
         </div>
     )
